@@ -1,0 +1,7 @@
+n = int((input('digite um numero: ')))
+num = str(n)
+print(f'analisando o numero \033[7;30m{n}')
+print(f'unidade: \033[7;30m{num[3]}')
+print(f'dezena: \033[7;30m{num[2]}')
+print(f'centena: \033[7;30m{num[1]}')
+print(f'milhar: \033[7;30m{num[0]}')
