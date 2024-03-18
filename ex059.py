@@ -1,0 +1,12 @@
+lista = ('Lápis', 1.75, 'Borracha', 2.00, 'Caderno', 15.90, 'Estojo',
+         25.00, 'Transferidor', 4.20, 'Compasso', 9.99, 'Mochila', 120.32)
+print('-'*40)
+print('Listagem de Preços')
+print('-'*40)
+print(f'{lista[0]}................R${lista[1]}')
+print(f'{lista[2]}................R${lista[3]}')
+print(f'{lista[4]}................R${lista[5]}')
+print(f'{lista[6]}................R${lista[7]}')
+print(f'{lista[8]}................R${lista[9]}')
+print(f'{lista[10]}................R${lista[11]}')
+print(f'{lista[12]}................R${lista[13]}')
